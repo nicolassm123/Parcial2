@@ -9,13 +9,13 @@ package parcial2;
  *
  * @author estudiante103
  */
-public class Criatura {
+public abstract class Criatura {
     protected String nombre;
     protected int salud;
     protected int fuerza;
     protected Arma arma;
     
-    public criatura(String nombre, int nombre, int salud, int fuerza) {
+    public Criatura(String nombre, int nombre, int salud, int fuerza) {
         this.nombre = nombre;
         this.salud = salud;
         this.fuerza = fuerza;
